@@ -1,0 +1,78 @@
+ 1. Variables
+/* Assign the value 20 to a variable x and print it*/
+x = 20
+print(x)
+
+/*Assign the value "Bonjour" to a variable message and print it*/
+variable_message = "Bonjour"
+print(varibale_message)
+
+/*Create a variable and assign it a value*/
+my_variable = 28
+
+/*Print the variable*/
+print(my_variable)
+
+/*Print the type of the variable*/
+print(type(my_variable))
+
+ 2. Data types
+/*Create a variable of each data type: integer, float, string, boolean*/
+integer_variable = 5
+float_variable = 3.14
+string_variable = "Python"
+boolean_variable = True
+
+/*Print the value and data type of each variable*/
+print(integer_variable, type(integer_variable))
+print(float_variable, type(float_variable))
+print(string_variable, type(string_variable))
+print(boolean_variable, type(boolean_variable))
+
+/*Convert each variable to a different data type and print the value*/
+print(float(integer_variable))
+print(int(float_variable))
+print(str(boolean_variable))
+
+/*Print the data types of each converted variable*/
+print(type(float(integer_variable)))
+print(type(int(float_variable)))
+print(type(str(boolean_variable)))
+
+ 3. Sets
+/*Create a set of numbers from 1 to 10*/
+number_set = set(range(1, 10))
+
+/* Add the number 11 to the set*/
+number_set.add(11)
+
+/*remove the number 5 from the set*/
+number_set.remove(5)
+
+/*Check if the number 3 is in the set*/
+print(3 in number_set)
+
+/*Print the size of the set*/
+print(len(number_set))
+
+ 4. Lists
+/*Create a list of numbers from 1 to 10*/
+number_list = list(range(1, 11))
+
+/*Add the number 11 to the list*/
+number_list.append(11)
+
+/*Remove the number 5 from the list*/
+number_list.remove(5)
+
+/*Check if the number 3 is in the list*/
+print(3 in number_list)
+
+/*Remove the first element from the list*/
+number_list.pop(0)
+
+/*Print the size of the list*/
+print(len(number_list))
+
+/*Reverse the order of the list*/
+number_list.reverse()
