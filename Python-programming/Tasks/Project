@@ -1,5 +1,7 @@
- 1. Variables
-/* Assign the value 20 to a variable x and print it*/
+#!/usr/bin/python3
+import math
+
+//Assign the value 20 to a variable x and print it//
 x = 20
 print(x)
 
@@ -14,9 +16,8 @@ my_variable = 28
 print(my_variable)
 
 /*Print the type of the variable*/
-print(type(my_variable))
+print(type(my_variable)
 
- 2. Data types
 /*Create a variable of each data type: integer, float, string, boolean*/
 integer_variable = 5
 float_variable = 3.14
@@ -39,7 +40,7 @@ print(type(float(integer_variable)))
 print(type(int(float_variable)))
 print(type(str(boolean_variable)))
 
- 3. Sets
+ 
 /*Create a set of numbers from 1 to 10*/
 number_set = set(range(1, 10))
 
@@ -55,7 +56,7 @@ print(3 in number_set)
 /*Print the size of the set*/
 print(len(number_set))
 
- 4. Lists
+
 /*Create a list of numbers from 1 to 10*/
 number_list = list(range(1, 11))
 

@@ -1,0 +1,46 @@
+#!/usr/bin/python3
+import math
+
+
+def add_numbers(a, b):
+    return a + b
+
+# Testing the function
+result = add_numbers(5, 7)
+print("Sum:", result)
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Taking user input for the number
+number = int(input("Enter a number to calculate its factorial: "))
+result_factorial = factorial(number)
+print("Factorial:", result_factorial)
+
+def is_prime(number):
+    if number < 2:
+        return False
+    for i in range(2, int(number**0.5) + 1):
+        if number % i == 0:
+            return False
+    return True
+
+# Testing the function
+test_number = 13
+if is_prime(test_number):
+    print(f"{test_number} is a prime number.")
+else:
+    print(f"{test_number} is not a prime number.")
+
+    def calculate_average(numbers):
+    if not numbers:
+        return None  # Avoid division by zero for an empty list
+    return sum(numbers) / len(numbers)
+
+# Testing the function
+sample_list = [10, 15, 20, 25, 30]
+average_result = calculate_average(sample_list)
+print("Average:", average_result)
